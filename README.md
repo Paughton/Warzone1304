@@ -20,3 +20,5 @@ Execute the following command: `git clone https://github.com/Paughton/Warzone130
 And import the database: `warzone1304.sql`
 
 Once you have done that navigate to the `system/config.php` file and change all credentials there to fit your needs.
+
+You also want to edit the following line in `register.php`: `mail("YOUREMAILHERE@message.com", "New User!", $message2);` and `$message = "Please copy the link below to confirm your email.\r\nWEBSITEADDRESS/confirm?key=" . $key;`

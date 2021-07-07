@@ -22,7 +22,7 @@
 	$admin['id']        = 1;
 	
 	// ADMIN INBOX SETTINGS
-	$admin['namelist']  = array("Warzone 1304 CS", "Warzone 1304", "Silas Carlson");
+	$admin['namelist']  = array("Warzone 1304 CS", "Warzone 1304");
 	
 	// TECHNICAL SETTINGS
 	$maintenance 		= false;

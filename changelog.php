@@ -6,11 +6,7 @@
 	
 		<h1>Credits</h1>
 		<hr /><br />
-		Creator & Owner - <b>Silas Carlson</b><br />
-		Unit Art Design - <b>Saw John</b><br />
-		Building Art Design - <b>Silas Carlson</b><br />
-		Alpha Testers - <b>JR Carlson</b><br />
-		Game Company - <b>Tanktot Games</b><br />
+		None
 	
 		<br /><br /><br />
 		<h1>Beta Versions</h1>

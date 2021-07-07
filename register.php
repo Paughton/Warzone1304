@@ -59,15 +59,15 @@
 				$ins9 = mysqli_query($mysqli, "INSERT INTO confirm (userid, email, confirmkey) VALUES  ('".$player_id['id']."', '".$player_id['email']."', '".$key."')") or die(mysqli_error($mysqli));
 				
 				// The message
-				$message = "Please copy the link below to confirm your email.\r\nhttps://www.tanktotgames.xibus.com/warzone1304/confirm?key=" . $key;
-				$message2 = "Hello Silas, there is a new user that has registered into Warzone1304!\r\nThere username is, " . $username;
+				$message = "Please copy the link below to confirm your email.\r\nWEBSITEADDRESS/confirm?key=" . $key;
+				$message2 = "Hello, there is a new user that has registered into Warzone1304!\r\nThere username is, " . $username;
 
 				// In case any of our lines are larger than 70 characters, we should use wordwrap()
 				$message = wordwrap($message, 70, "\r\n");
 				$message2 = wordwrap($message2, 70, "\r\n");
 				
 				mail($player_id['email'], $title . " Activation", $message);
-				mail("tanktotgames@gmail.com", "New User!", $message2);
+				mail("YOUREMAILHERE@message.com", "New User!", $message2);
 				
 				output("You have registered! We have sent you an activation link to your e-mail.");
 			}
